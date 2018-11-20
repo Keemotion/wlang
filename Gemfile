@@ -5,7 +5,7 @@ group :runtime do
   gem "temple", "~> 0.6"
   gem "quickl", "~> 0.4.3"
   gem "path", "~> 1.3"
-  gem "backports", "~> 2.6"
+  gem "backports", ">= 2.6"
 end
 
 group :extra do
