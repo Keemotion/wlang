@@ -1,7 +1,7 @@
 require 'spec_helper'
 module WLang
   describe Source, "template_content" do
-    
+
     subject{ Source.new(source).template_content }
 
     context 'on a pure string' do
@@ -15,7 +15,7 @@ module WLang
     end
 
     context 'on a File' do
-      let(:source){ File.open(Path.here.to_s) }
+      let(:source){ File.open(Path.file.to_s) }
       it{ should eq(File.read(__FILE__)) }
     end
 
