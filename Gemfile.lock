@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/Keemotion/citrus.git
-  revision: 2b9cbaff5fd7145ea551fce921a2950fe489f9b7
+  revision: 7e17c2c6338068d773191c4988b8ca1eac593a85
   specs:
     citrus (2.5.2)
 
@@ -42,7 +42,7 @@ DEPENDENCIES
   awesome_print (~> 1.0.2)
   backports (>= 2.6)
   bundler (~> 1.0)
-  citrus (~> 2.5)!
+  citrus!
   path (~> 2.0)
   quickl (~> 0.4.3)
   rack-test (~> 0.6)
