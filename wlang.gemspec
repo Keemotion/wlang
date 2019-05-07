@@ -130,7 +130,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency("rspec", "~> 2.10.0")
   s.add_development_dependency("sinatra", ">= 2.0")
   s.add_development_dependency("rack-test", "~> 0.6")
-  s.add_dependency("citrus", "~> 2.4.1")
+  s.add_dependency("citrus", "~> 2.5.2")
   s.add_dependency("temple", "~> 0.6")
   s.add_dependency("quickl", "~> 0.4.3")
   s.add_dependency("path", "~> 2.0")

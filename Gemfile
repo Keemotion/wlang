@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
 group :runtime do
-  gem "citrus", "~> 2.4.1"
+  gem "citrus", "~> 2.5", git: "https://github.com/Keemotion/citrus.git"
   gem "temple", "~> 0.6"
   gem "quickl", "~> 0.4.3"
   gem "path", "~> 2.0"
